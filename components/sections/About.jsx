@@ -17,40 +17,19 @@ const Bio = ({ secondary }) => (
   <GridItem>
     <VStack m="auto" w="75%" spacing="12px" pt="5%">
       <Text>
-        Hi, I&apos;m Jarrod! I studied computer science at the University of
-        Toronto, and I&apos;m currently working at{" "}
-        <Link href="https://www.sailpoint.com/" isExternal>
+        Hi, I&apos;m Adam! I studied computer science at Ho Chi Minh city
+        University of Education, and I&apos;m currently working{" "}
+        {/* <Link href="https://www.sailpoint.com/" isExternal>
           SailPoint
-        </Link>{" "}
-        as a <strong style={{ color: secondary }}>Software Engineer II</strong>{" "}
-        on the Platform Workflows team. Prior to that, I was at{" "}
-        <Link href="https://www.citigroup.com/citi/" isExternal>
-          Citigroup
-        </Link>{" "}
-        &{"  "}
-        <Link href="https://citylitics.com/" isExternal>
-          Citylitics
-        </Link>{" "}
-        as a{" "}
-        <strong style={{ color: secondary }}>Software Developer Intern</strong>.
+        </Link>{" "} */}
+        as a <strong style={{ color: secondary }}>Data Engineer</strong>{" "}
+        {/* as a <strong style={{ color: secondary }}>Software Engineer II</strong>{" "} */}
+        on the Platform Workflows team.{" "}
       </Text>
       <Text>
         I enjoy creating scalable & elegant web/mobile applications that have a
         real world impact. I&apos;m always learning new technologies, either
         through{" "}
-        <Link href="https://devpost.com/jcserv" isExternal>
-          hackathons
-        </Link>{" "}
-        or studying - and recently became an{" "}
-        <strong style={{ color: secondary }}>
-          <Link
-            href="https://www.credly.com/badges/517ae2cf-990f-4e3f-acf7-c7dc692c67a0/public_url"
-            isExternal
-          >
-            AWS Certified Developer
-          </Link>
-        </strong>
-        .
       </Text>
     </VStack>
   </GridItem>

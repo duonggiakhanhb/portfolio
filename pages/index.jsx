@@ -14,8 +14,8 @@ export default function Home() {
       <Landing />
       <About />
       <Experience />
-      <Projects />
-      <MoreProjects />
+      {/* <Projects /> */}
+      {/* <MoreProjects /> */}
       <Contact />
     </div>
   );

@@ -33,7 +33,7 @@ export default function Contact() {
         <Button
           as={Link}
           leftIcon={<EmailIcon />}
-          href="mailto:jarrod.servilla@gmail.com"
+          href="mailto:pmtien16.8@gmail.com"
           m="auto"
           mt={6}
         >

@@ -2,12 +2,12 @@ const links = [
   {
     label: "Github",
     icon: "github",
-    url: "https://github.com/jcserv/",
+    url: "https://github.com/Phong940253/",
   },
   {
     label: "LinkedIn",
     icon: "linkedin",
-    url: "https://www.linkedin.com/in/jarrod-servilla/",
+    url: "https://github.com/Phong940253/",
   },
   {
     label: "Resume",
