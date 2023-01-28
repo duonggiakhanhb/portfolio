@@ -24,7 +24,7 @@ export default function Landing() {
       </h1>
       <h1 className={styles.tagline} style={{ color: primary }}>
         {" "}
-        a <strong style={{ color: secondary }}>Data Engineer.</strong>
+        a <strong style={{ color: secondary }}>Team Leader of APT.</strong>
       </h1>
     </div>
   );
@@ -38,7 +38,7 @@ export default function Landing() {
         variant="ghost"
         size="lg"
         mb="2"
-        href="/resume.pdf"
+        href="/AdamCV.pdf"
         isExternal
       >
         Download resume

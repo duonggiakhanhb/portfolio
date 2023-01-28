@@ -1,7 +1,6 @@
 import {
   GridItem,
   Image,
-  Link,
   SimpleGrid,
   Text,
   useBreakpointValue,
@@ -61,7 +60,7 @@ export default function About() {
       id="about"
       name="about"
       headerMt="-5%"
-      headerText="About Me"
+      headerText="About Us"
       useHeaderStyle
     >
       <SimpleGrid

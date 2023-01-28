@@ -28,12 +28,12 @@ export default function Contact() {
           Whether it&apos;s a job opportunity, an invite to coffee,
         </Text>
         <Text fontSize="xl" m="auto">
-          or feedback on my portfolio, my inbox is open!
+          or feedback on our portfolio, our inbox is open!
         </Text>
         <Button
           as={Link}
           leftIcon={<EmailIcon />}
-          href="mailto:pmtien16.8@gmail.com"
+          href="mailto:adamaranguyen@gmail.com"
           m="auto"
           mt={6}
         >

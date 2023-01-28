@@ -42,52 +42,47 @@ const projects = [
 ];
 
 export const extraProjects = [
-  // {
-  //   name: "SQL Automarker",
-  //   type: "Research",
-  //   description:
-  //     "Microservices architecture enabling SQL automarking with admin panel",
-  //   tech: ["React", "Node.js", "MongoDB", "Docker"],
-  //   links: [
-  //     {
-  //       label: "Project",
-  //       icon: "link",
-  //       url: "https://www.michaelliut.ca/projects.html",
-  //     },
-  //   ],
-  // },
-  // {
-  //   name: "ResumeWords",
-  //   type: "Personal",
-  //   description:
-  //     "A tool that identifies keywords in job postings using ML that will improve your chances of getting a job.",
-  //   tech: ["React", "TypeScript", "Docker"],
-  //   links: [
-  //     {
-  //       label: "Website",
-  //       icon: "link",
-  //       url: "https://resume-words.com/",
-  //     },
-  //     {
-  //       label: "Github",
-  //       icon: "github",
-  //       url: "https://github.com/ShahmeerShahid/ResumeWords",
-  //     },
-  //   ],
-  // },
-  // {
-  //   name: "AnonBot",
-  //   type: "Personal",
-  //   description: "Discord bot for anonymous messaging, with 2100 messages sent",
-  //   tech: ["Node.js"],
-  //   links: [
-  //     {
-  //       label: "Github",
-  //       icon: "github",
-  //       url: "https://github.com/white-van/WVAnonBot",
-  //     },
-  //   ],
-  // },
+  {
+    name: "2learners LMS",
+    type: "Application",
+    description:
+      "This project show all information about Ho Chi Minh City University of Education - Informatics Teacher Education (THSP).",
+    tech: ["Django", "Postgresql", "Python", "Docker"],
+    links: [
+      {
+        label: "Website",
+        icon: "link",
+        url: "https://www.2learner.edu.vn",
+      },
+    ],
+  },
+  {
+    name: "Book recommendation",
+    type: "Personal",
+    description:
+      "A recommendation machine to recommend people to buy a related book",
+    tech: ["Django", "Python"],
+    links: [
+      {
+        label: "Project",
+        icon: "link",
+        url: "gitlab.com/tienphan168/book-recommendations",
+      },
+    ],
+  },
+  {
+    name: "Vietnamese Food reviews sentiment analysis",
+    type: "Personal",
+    description: "To show the sentiment in food comments",
+    tech: ["Node.js"],
+    links: [
+      {
+        label: "Github",
+        icon: "github",
+        url: "https://gitlab.com/tienphan168/food-review-sentiments",
+      },
+    ],
+  },
   // {
   //   name: "Citrade",
   //   type: "Work",
