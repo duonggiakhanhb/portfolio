@@ -70,6 +70,7 @@ const ProjectContent = ({
       </>
     );
   }
+
   return (
     <Image
       m="auto"

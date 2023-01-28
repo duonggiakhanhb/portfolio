@@ -14,7 +14,7 @@ export default function Home() {
       <Landing />
       <About />
       <Experience />
-      {/* <Projects /> */}
+      <Projects />
       {/* <MoreProjects /> */}
       <Contact />
     </div>

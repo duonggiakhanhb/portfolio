@@ -39,12 +39,12 @@ const Headshot = () => (
   <GridItem>
     <Image
       m="auto"
-      src="/me.jpg"
-      alt="Jarrod Servilla"
+      src="/profile.png"
+      alt="Adam Nguyen"
       zIndex={1}
       className="image"
       onClick={() => {
-        window.open("http://linkedin.com/in/jarrod-servilla");
+        window.open("https://github.com/duonggiakhanhb");
       }}
     />
   </GridItem>

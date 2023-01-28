@@ -1,61 +1,44 @@
 const projects = [
-  // {
-  //   name: "APT.io",
-  //   description: "APT is a team with 3 members named Adam, Phong and Tien",
-  //   pic: "/ulinks.PNG",
-  //   tech: ["React", "GraphQL", "Node.js"],
-  //   links: [
-  //     {
-  //       label: "Github",
-  //       icon: "github",
-  //       url: "https://github.com/Phong940253/portfolio",
-  //     },
-  //   ],
-  // },
-  // {
-  //   name: "UTM TA Application System",
-  //   description:
-  //     "UTAP is the central platform for all MCS TA postings @ UTM enabling students and instructors to apply for postings and manage applications.",
-  //   pic: "/utap.png",
-  //   tech: ["React", "Node.js"],
-  //   links: [
-  //     {
-  //       label: "Website",
-  //       icon: "link",
-  //       url: "https://utap.utm.utoronto.ca/utap/",
-  //     },
-  //   ],
-  // },
-  // {
-  //   name: "PostureAI",
-  //   description:
-  //     "PostureAI is an AI powered posture improvement web app, used by 200 monthly active users, that helps you maintain healthy posture while working.",
-  //   subtitle: "1st Place in Best Use of GCP",
-  //   pic: "/postureai.png",
-  //   tech: ["React", "TypeScript"],
-  //   links: [
-  //     {
-  //       label: "Website",
-  //       icon: "link",
-  //       url: "https://postureai.tech/",
-  //     },
-  //     {
-  //       label: "Github",
-  //       icon: "github",
-  //       url: "https://github.com/jcserv/PostureAI",
-  //     },
-  //     {
-  //       label: "Demo",
-  //       icon: "youtube",
-  //       url: "https://www.youtube.com/watch?v=SqUmP6npKYM",
-  //     },
-  //     {
-  //       label: "Devpost",
-  //       icon: "devpost",
-  //       url: "https://devpost.com/software/placeholder-9gjdst",
-  //     },
-  //   ],
-  // },
+  {
+    name: "3D Chess Game",
+    description: "Intuitive, vibrant, exciting 3D chess game based on OpenGL",
+    pic: "/profile.PNG",
+    tech: ["OpenGL", "C++"],
+    links: [
+      {
+        label: "Github",
+        icon: "github",
+        url: "https://github.com/kun09-tker/ChessGame3D",
+      },
+    ],
+  },
+  {
+    name: "QRCodeExtractor",
+    description:
+      "A Python based QR code extractor that uses OpenCV to detect and extract QR codes in any orientation.",
+    pic: "/profile.png",
+    tech: ["Python"],
+    links: [
+      {
+        label: "Github",
+        icon: "github",
+        url: "https://github.com/duonggiakhanhb/DIP2021",
+      },
+    ],
+  },
+  {
+    name: "KillAppGnomeExtension",
+    description: "Force quit or kill application.",
+    pic: "/profile.png",
+    tech: ["JavaScript"],
+    links: [
+      {
+        label: "Github",
+        icon: "github",
+        url: "https://github.com/duonggiakhanhb/Killapp_GNOME_Extensions",
+      },
+    ],
+  },
 ];
 
 export const extraProjects = [
