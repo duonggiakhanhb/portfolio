@@ -32,7 +32,7 @@ const Card = ({ name, subtitle, description, links }) => {
       w="75%"
       textAlign="start"
     >
-      <Heading as="h1" size="lg" m={2} p={2} pt={6}>
+      <Heading as="h1" size="lg" m={2} p={2} pt={6} style={styless[1]}>
         {name}
       </Heading>
       <Text hidden={!subtitle} size="sm" as="strong" m={2} p={2} pb={6}>
@@ -41,7 +41,7 @@ const Card = ({ name, subtitle, description, links }) => {
       <Text m={2} p={2} pb={6}>
         {description}
       </Text>
-      <LinkIconBar links={links} float="right" mt={0} mr={4} mb={4} />
+      <LinkIconBar className="project-icon" links={links} float="right" mt={0} mr={4} mb={4}/>
     </Box>
   );
 };
@@ -135,5 +135,11 @@ const styless = [
     transition: "0.3s",
     cursor: "pointer",
     
-  }
+  },
+  {
+    color: "#ff19a5",
+  },
+  {
+
+  },
 ]

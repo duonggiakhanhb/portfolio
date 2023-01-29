@@ -2,7 +2,7 @@ const projects = [
   {
     name: "3D Chess Game",
     description: "Intuitive, vibrant, exciting 3D chess game based on OpenGL",
-    pic: "/profile.png",
+    pic: "/chess-game.png",
     tech: ["OpenGL", "C++"],
     links: [
       {
@@ -16,7 +16,7 @@ const projects = [
     name: "QRCodeExtractor",
     description:
       "A Python based QR code extractor that uses OpenCV to detect and extract QR codes in any orientation.",
-    pic: "/profile.png",
+    pic: "/qr-code.png",
     tech: ["Python"],
     links: [
       {
@@ -29,7 +29,7 @@ const projects = [
   {
     name: "KillAppGnomeExtension",
     description: "Force quit or kill application.",
-    pic: "/profile.png",
+    pic: "https://cdn-icons-png.flaticon.com/512/115/115804.png",
     tech: ["JavaScript"],
     links: [
       {
