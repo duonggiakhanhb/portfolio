@@ -78,7 +78,8 @@ const ProjectContent = ({
       p="auto"
       src={pic}
       alt={`${name} picture`}
-      className="image"
+      className="image project"
+      style={styless[0]}
       onClick={() => {
         window.open(links[0].url);
       }}
@@ -122,3 +123,17 @@ export default function ProjectsOverview() {
     </Flex>
   );
 }
+
+const styless = [
+  {
+  
+    objectFit: "cover",
+    flexShrink: 0,
+    width: "45vh",
+    height: "45vh",
+    borderRadius: "20px",
+    transition: "0.3s",
+    cursor: "pointer",
+    
+  }
+]

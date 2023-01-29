@@ -14,7 +14,6 @@ import SectionContainer from "../SectionContainer";
 
 import ProfileBox  from "../sections/ProfileBox";
 
-
 const Bio = ({ secondary }) => (
   <GridItem>
     <VStack m="auto" w="75%" spacing="12px" pt="5%">
