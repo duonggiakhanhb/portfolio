@@ -13,21 +13,20 @@ import theme from "../theme";
 const SiteHead = ({ title }) => (
   <Head>
     <title>{title}</title>
-    <meta name="title" content="Jarrod Servilla - Full Stack Developer" />
+    <meta name="title" content="APT Team - Full Stack Developer" />
     <meta name="description" content="Jarrod Servilla - Portfolio" />
     <link rel="icon" href="/favicon.ico" />
     <link rel="apple-touch-icon" href="/logo192.png" />
     <link rel="manifest" href="/manifest.json" />
     <meta name="theme-color" content="#252934" />
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://www.jarrodservilla.com/" />
     <meta
       property="og:title"
-      content="Jarrod Servilla - Full Stack Developer"
+      content="APT Team - Full Stack Developer"
     />
     <meta
       property="og:description"
-      content="Jarrod Servilla's personal portfolio"
+      content="APT Team's portfolio"
     />
     <meta property="og:image" content="/logo512.png" />
     <meta property="twitter:card" content="summary_large_image" />
@@ -41,6 +40,10 @@ const SiteHead = ({ title }) => (
       content="Jarrod Servilla's personal portfolio"
     />
     <meta property="twitter:image" content="/logo512.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet"/>
+
     <Script
       async
       defer
@@ -69,7 +72,7 @@ function App({ Component, pageProps }) {
   const { pathname } = useRouter();
 
   const pathToTitle = {
-    "/": "Jarrod Servilla - Full Stack Developer",
+    "/": "APT Team - Full Stack Developer",
   };
 
   return (

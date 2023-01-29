@@ -12,6 +12,9 @@ import React from "react";
 import { colors } from "../../theme";
 import SectionContainer from "../SectionContainer";
 
+import ProfileBox  from "../sections/ProfileBox";
+
+
 const Bio = ({ secondary }) => (
   <GridItem>
     <VStack m="auto" w="75%" spacing="12px" pt="5%">
@@ -28,25 +31,26 @@ const Bio = ({ secondary }) => (
       <Text>
         I enjoy creating scalable & elegant web/mobile applications that have a
         real world impact. I&apos;m always learning new technologies, either
-        through{" "}
+        through.{" "}
       </Text>
     </VStack>
   </GridItem>
 );
 
 const Headshot = () => (
-  <GridItem>
-    <Image
-      m="auto"
-      src="/profile.png"
-      alt="Adam Nguyen"
-      zIndex={1}
-      className="image"
-      onClick={() => {
-        window.open("https://github.com/duonggiakhanhb");
-      }}
-    />
-  </GridItem>
+  // <GridItem>
+  //   <Image
+  //     className="box display image"
+  //     m="auto"
+  //     src="/profile.png"
+  //     alt="Adam Nguyen"
+  //     zIndex={1}
+  //     onClick={() => {
+  //       window.open("https://github.com/duonggiakhanhb");
+  //     }}
+  //   />
+  // </GridItem>
+  <ProfileBox/>
 );
 
 export default function About() {
@@ -77,3 +81,4 @@ export default function About() {
     </SectionContainer>
   );
 }
+

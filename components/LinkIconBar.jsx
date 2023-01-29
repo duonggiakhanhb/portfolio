@@ -35,6 +35,8 @@ const LinkIcon = ({ index, color, onHoverColor, url, label, icon }) => (
       <Icon
         as={icons[icon]}
         fontSize="xl"
+        width="4vw"
+        height="4vw"
         color={color}
         _hover={{ color: onHoverColor }}
       />

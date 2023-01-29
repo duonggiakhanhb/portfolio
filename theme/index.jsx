@@ -7,7 +7,7 @@ const config = {
 
 export const colors = {
   primary: {
-    light: "#F7F8FA",
+    light: "",
     dark: "#252934",
   },
   secondary: {

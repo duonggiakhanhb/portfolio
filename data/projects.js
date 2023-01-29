@@ -2,7 +2,7 @@ const projects = [
   {
     name: "3D Chess Game",
     description: "Intuitive, vibrant, exciting 3D chess game based on OpenGL",
-    pic: "/profile.PNG",
+    pic: "/profile.png",
     tech: ["OpenGL", "C++"],
     links: [
       {
