@@ -10,6 +10,7 @@ module.exports = {
     "airbnb",
     "eslint:recommended",
     "prettier",
+    "next/core-web-vitals",
   ],
   parserOptions: {
     ecmaFeatures: {
