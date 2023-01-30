@@ -35,13 +35,18 @@ const navBtns = [
   {
     label: "Contact",
   },
-
 ];
 
 const Logo = () => {
   const logo = useColorModeValue("/logo.png", "/logo-dark.png");
   return (
-    <a className="navlogo" style={{cursor: "pointer"}} onClick={() => scroll.scrollToTop()}>APT TEAM</a>
+    <a
+      className="navlogo"
+      style={{ cursor: "pointer" }}
+      onClick={() => scroll.scrollToTop()}
+    >
+      APT TEAM
+    </a>
   );
 };
 
@@ -55,7 +60,14 @@ const MenuToggle = ({ isOpen, onOpen }) => (
 
 const NavButtons = ({ size, onClose }) => {
   const btns = navBtns.map((btn) => (
-    <Button key={btn.label} size={size} variant="link" mb={2} onClick={onClose} style={styless[0]}>
+    <Button
+      key={btn.label}
+      size={size}
+      variant="link"
+      mb={2}
+      onClick={onClose}
+      style={styless[0]}
+    >
       {btn.href ? (
         <Link href={btn.href} isExternal>
           {btn.label}
@@ -108,7 +120,7 @@ const MenuLinks = ({ onClose }) => (
     spacing="24px"
     direction={["column", "row", "row", "row"]}
     alignItems="center"
-    style={{marginRight: "40px"}}
+    style={{ marginRight: "40px" }}
   >
     <NavButtons size="sm" onClose={onClose} />
     {/* <ColorModeButton mr="12px" /> */}
@@ -141,7 +153,7 @@ export default function Navbar() {
   const { isOpen, onOpen, onClose } = useDisclosure();
 
   return (
-    <Sticky enabled innerZ={99} >
+    <Sticky enabled innerZ={99}>
       <Stack
         as="header"
         w="100%"
@@ -162,17 +174,18 @@ export default function Navbar() {
 
 const styless = [
   {
-  color: "#fff",
-  fontSize: "1.2rem",
-  fontFamily: "Poppins",
-  fontStyle: "normal",
-  fontWeight: "500",
+    color: "#fff",
+    fontSize: "1.2rem",
+    fontFamily: "Poppins",
+    fontStyle: "normal",
+    fontWeight: "500",
   },
   {
     borderRadius: "18px",
     backgroundColor: "red",
     background: "rgba(255, 255, 255, 0.095)",
-    boxShadow: "inset 2.01px -2.01px 20px rgba(214, 214, 214, 0.17), inset -3.01333px 3.01333px 3.01333px rgba(255, 255, 255, 0.39)",
+    boxShadow:
+      "inset 2.01px -2.01px 20px rgba(214, 214, 214, 0.17), inset -3.01333px 3.01333px 3.01333px rgba(255, 255, 255, 0.39)",
     backdropFilter: "blur(74.4293px)",
   },
-]
+];

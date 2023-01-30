@@ -41,7 +41,14 @@ const Card = ({ name, subtitle, description, links }) => {
       <Text m={2} p={2} pb={6}>
         {description}
       </Text>
-      <LinkIconBar className="project-icon" links={links} float="right" mt={0} mr={4} mb={4}/>
+      <LinkIconBar
+        className="project-icon"
+        links={links}
+        float="right"
+        mt={0}
+        mr={4}
+        mb={4}
+      />
     </Box>
   );
 };
@@ -126,7 +133,6 @@ export default function ProjectsOverview() {
 
 const styless = [
   {
-  
     objectFit: "cover",
     flexShrink: 0,
     width: "45vh",
@@ -134,12 +140,9 @@ const styless = [
     borderRadius: "20px",
     transition: "0.3s",
     cursor: "pointer",
-    
   },
   {
     color: "#ff19a5",
   },
-  {
-
-  },
-]
+  {},
+];
