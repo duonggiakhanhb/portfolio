@@ -12,6 +12,22 @@ const projects = [
       },
     ],
   },
+
+  {
+    name: "Title Review",
+    description:
+      "Website to honor the title for the University of Education in Ho Chi Minh City",
+    pic: "/title-review.png",
+    tech: ["Laravel", "Php", "Mysql", "Jquery", "Bootstrap", "Sass"],
+    links: [
+      {
+        label: "Website",
+        icon: "link",
+        url: "http://khenthuong.youth.hcmue.edu.vn/",
+      },
+    ],
+  },
+
   {
     name: "QRCodeExtractor",
     description:
