@@ -62,7 +62,7 @@ const PageWrapper = ({ children, title }) => (
     <main className="main">{children}</main>
     <Footer />
     <Script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/gsap-latest-beta.min.js" />
-    <Script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/DrawSVGPlugin3.min.js" />
+    {/* <Script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/DrawSVGPlugin3.min.js" /> */}
     <Script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.15/lodash.min.js" />
     <Script src="/bongo/bongo-cat.js" />
   </div>
