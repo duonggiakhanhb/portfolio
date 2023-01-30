@@ -21,6 +21,8 @@ import { FaMoon, FaSun } from "react-icons/fa";
 import { animateScroll as scroll, Link as ScrollLink } from "react-scroll";
 import Sticky from "react-stickynode";
 
+import { colors } from "../theme";  
+
 const styless = [
   {
     color: "#fff",
