@@ -85,7 +85,7 @@ const ExperienceDetails = ({ index }) => {
   );
 };
 
-export default function ExperienceOverview() {
+function ExperienceOverview() {
   const [index, setIndex] = useState(0);
   const showSelect = useBreakpointValue({
     base: false,
@@ -170,3 +170,5 @@ const styless = [
     color: "#FFFFFF",
   },
 ];
+
+export default ExperienceOverview;

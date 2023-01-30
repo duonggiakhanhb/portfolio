@@ -113,7 +113,7 @@ const Project = ({ index, shouldAlternate, ...props }) => (
   </Fade>
 );
 
-export default function ProjectsOverview() {
+function ProjectsOverview() {
   const shouldAlternate = useBreakpointValue({ base: false, md: true });
   return (
     <Flex pt={12}>
@@ -146,3 +146,5 @@ const styless = [
   },
   {},
 ];
+
+export default ProjectsOverview;

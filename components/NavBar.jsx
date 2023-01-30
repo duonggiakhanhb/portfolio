@@ -148,7 +148,7 @@ const NavMenu = ({ isOpen, onClose }) => (
   </Drawer>
 );
 
-export default function Navbar() {
+function Navbar() {
   const primary = useColorModeValue(colors.primary.light, colors.primary.dark);
   const { isOpen, onOpen, onClose } = useDisclosure();
 
@@ -189,3 +189,5 @@ const styless = [
     backdropFilter: "blur(74.4293px)",
   },
 ];
+
+export default Navbar;
