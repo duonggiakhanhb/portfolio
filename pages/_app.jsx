@@ -1,7 +1,7 @@
 import "../styles/globals.css";
 
 import { ChakraProvider } from "@chakra-ui/react";
-import { Head, Html } from "next/document";
+import Head from "next/head";
 import { useRouter } from "next/router";
 import Script from "next/script";
 import React from "react";
@@ -11,7 +11,6 @@ import NavBar from "../components/NavBar";
 import theme from "../theme";
 
 const SiteHead = ({ title }) => (
-  <Html>
   <Head>
     <title>{title}</title>
     <meta name="title" content="APT Team - Full Stack Developer" />
@@ -29,9 +28,13 @@ const SiteHead = ({ title }) => (
 
     <meta property="twitter:image" content="/logo512.png" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin={"true"} />
     <link
-      rel="stylesheet"  
+      rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossOrigin={"true"}
+    />
+    <link
+      rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
     />
     <link rel="stylesheet" href="/global.css" />
@@ -48,7 +51,6 @@ const SiteHead = ({ title }) => (
       />
     </noscript>
   </Head>
-  </Html>
 );
 
 const PageWrapper = ({ children, title }) => (
