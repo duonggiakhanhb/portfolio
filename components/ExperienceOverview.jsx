@@ -17,6 +17,31 @@ import jobs from "../data/jobs";
 import styles from "../styles/components/ExperienceOverview.module.css";
 import { colors } from "../theme";
 
+const styless = [
+  {
+    borderRadius: "16px",
+    background:
+      "linear-gradient(103.91deg, #9B51E0 21.01%, rgba(48, 129, 237, 0.8) 100%)",
+  },
+  {
+    cursor: "pointer",
+    // marginLeft: "20px",
+    display: "flex",
+    justifyContent: "center",
+    alignItems: "center",
+    backgroundColor: "transparent",
+    padding: "8px 38px",
+    border: "1px solid #D7D7D7",
+    borderRadius: "16px",
+    fontFamily: "Poppins",
+    fontStyle: "normal",
+    fontWeight: 600,
+    // fontSize: "13px",
+    letterSpacing: "-1px",
+    color: "#FFFFFF",
+  },
+];
+
 const ExperienceSelect = ({ expIndex, setIndex }) => (
   <Select value={expIndex} onChange={(e) => setIndex(e.target.value)}>
     {jobs.map((job, index) => (
@@ -146,29 +171,5 @@ function ExperienceOverview() {
   );
 }
 
-const styless = [
-  {
-    borderRadius: "16px",
-    background:
-      "linear-gradient(103.91deg, #9B51E0 21.01%, rgba(48, 129, 237, 0.8) 100%)",
-  },
-  {
-    cursor: "pointer",
-    // marginLeft: "20px",
-    display: "flex",
-    justifyContent: "center",
-    alignItems: "center",
-    backgroundColor: "transparent",
-    padding: "8px 38px",
-    border: "1px solid #D7D7D7",
-    borderRadius: "16px",
-    fontFamily: "Poppins",
-    fontStyle: "normal",
-    fontWeight: 600,
-    // fontSize: "13px",
-    letterSpacing: "-1px",
-    color: "#FFFFFF",
-  },
-];
 
 export default ExperienceOverview;

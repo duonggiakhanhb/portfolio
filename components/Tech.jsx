@@ -24,9 +24,9 @@ const styless = {
   fontSize: "2.5",
 };
 function setColor(item) {
-  if (item == "OpenGL") return "#5dfb46c4";
-  if (item == "C++") return "#bb00ffc4";
-  if (item == "JavaScript") return "#F45834";
-  if (item == "Python") return "#F4CD34";
+  if (item === "OpenGL") return "#5dfb46c4";
+  if (item === "C++") return "#bb00ffc4";
+  if (item === "JavaScript") return "#F45834";
+  if (item === "Python") return "#F4CD34";
   return "#FFFFFF";
 }

@@ -16,6 +16,22 @@ import { colors } from "../theme";
 import LinkIconBar from "./LinkIconBar";
 import Tech from "./Tech";
 
+const styless = [
+  {
+    objectFit: "cover",
+    flexShrink: 0,
+    width: "45vh",
+    height: "45vh",
+    borderRadius: "20px",
+    transition: "0.3s",
+    cursor: "pointer",
+  },
+  {
+    color: "#ff19a5",
+  },
+  {},
+];
+
 const Card = ({ name, subtitle, description, links }) => {
   const bg = useColorModeValue(colors.bg.light, colors.bg.dark);
 
@@ -131,20 +147,6 @@ function ProjectsOverview() {
   );
 }
 
-const styless = [
-  {
-    objectFit: "cover",
-    flexShrink: 0,
-    width: "45vh",
-    height: "45vh",
-    borderRadius: "20px",
-    transition: "0.3s",
-    cursor: "pointer",
-  },
-  {
-    color: "#ff19a5",
-  },
-  {},
-];
+
 
 export default ProjectsOverview;

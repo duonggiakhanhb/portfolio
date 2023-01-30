@@ -22,6 +22,24 @@ import Sticky from "react-stickynode";
 
 import { colors } from "../theme";
 
+const styless = [
+  {
+    color: "#fff",
+    fontSize: "1.2rem",
+    fontFamily: "Poppins",
+    fontStyle: "normal",
+    fontWeight: "500",
+  },
+  {
+    borderRadius: "18px",
+    backgroundColor: "red",
+    background: "rgba(255, 255, 255, 0.095)",
+    boxShadow:
+      "inset 2.01px -2.01px 20px rgba(214, 214, 214, 0.17), inset -3.01333px 3.01333px 3.01333px rgba(255, 255, 255, 0.39)",
+    backdropFilter: "blur(74.4293px)",
+  },
+];
+
 const navBtns = [
   {
     label: "About",
@@ -172,22 +190,5 @@ function Navbar() {
   );
 }
 
-const styless = [
-  {
-    color: "#fff",
-    fontSize: "1.2rem",
-    fontFamily: "Poppins",
-    fontStyle: "normal",
-    fontWeight: "500",
-  },
-  {
-    borderRadius: "18px",
-    backgroundColor: "red",
-    background: "rgba(255, 255, 255, 0.095)",
-    boxShadow:
-      "inset 2.01px -2.01px 20px rgba(214, 214, 214, 0.17), inset -3.01333px 3.01333px 3.01333px rgba(255, 255, 255, 0.39)",
-    backdropFilter: "blur(74.4293px)",
-  },
-];
 
 export default Navbar;
