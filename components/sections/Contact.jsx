@@ -5,6 +5,14 @@ import React from "react";
 
 import SectionContainer from "../SectionContainer";
 
+const styless = [
+  {
+    borderRadius: "10px",
+    background:
+      "linear-gradient(103.91deg, #9B51E0 21.01%, rgba(48, 129, 237, 0.8) 100%)",
+  }
+]
+
 export default function Contact() {
   return (
     <SectionContainer
@@ -32,6 +40,7 @@ export default function Contact() {
         </Text>
         <Button
           as={Link}
+          style={styless[0]}
           leftIcon={<EmailIcon />}
           href="mailto:adamaranguyen@gmail.com"
           m="auto"

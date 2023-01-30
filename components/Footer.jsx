@@ -25,7 +25,7 @@ export default function Footer() {
   return (
     <Box as="footer" mt={12} height="100%" textAlign="center" className="app">
       <Link href={GITHUB_URL} isExternal>
-        <Text fontSize="sm">
+        <Text fontSize="xl">
           Made with{" "}
           <span aria-label="heart" role="img">
             &#128153;
@@ -34,11 +34,11 @@ export default function Footer() {
         </Text>
       </Link>
       <Stack direction="row" alignItems="center" justify="center">
-        <GoRepoForked /> <Text size="xs">{forks}</Text>
-        <GoStar /> <Text size="xs">{stars}</Text>
+        <GoRepoForked /> <Text size="l">{forks}</Text>
+        <GoStar /> <Text size="l">{stars}</Text>
       </Stack>
 
-      <Text fontSize="sm" mt={2} onClick={scroll.scrollToTop}>
+      <Text fontSize="l" mt={2} onClick={scroll.scrollToTop}>
         <span role="img" aria-label="rocket">
           &#128640;
         </span>{" "}

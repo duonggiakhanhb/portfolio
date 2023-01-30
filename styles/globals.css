@@ -70,6 +70,10 @@ a {
   padding-left: 70px;
 }
 
+div[role="dialog"] {
+  background-color: #000;
+}
+
 .link {
   color: #077bff i !important;
 }
@@ -201,7 +205,7 @@ a {
     rgba(65, 48, 90, 0.08) 98.72%
   );
   border-radius: 35px;
-  max-height: 450px;
+  max-height: 550px;
   width: fit-content;
   overflow: hidden;
   border-color: #021014;
@@ -209,8 +213,7 @@ a {
 .box .display-nft {
   object-fit: cover;
   flex-shrink: 0;
-  width: 300px;
-  height: 300px;
+  width: 33vh;
   border-radius: 20px;
   transition: 0.3s;
 }
@@ -228,7 +231,7 @@ a {
   font-style: normal;
   color: #ffffff;
   font-weight: 600;
-  font-size: 12px;
+  font-size: 1.7vh;
 }
 .box .display .info p {
   margin: 0;
@@ -249,7 +252,7 @@ a {
   color: #ffffff;
   font-style: normal;
   font-weight: 600;
-  font-size: 12px;
+  font-size: 1.7vh;
 }
 .box .display .info2 p {
   margin: 0;
