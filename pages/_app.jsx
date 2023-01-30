@@ -21,18 +21,15 @@ const SiteHead = ({ title }) => (
     <meta name="theme-color" content="#252934" />
     <meta property="og:type" content="website" />
     <meta
-      property="og:title"
-      content="APT Team - Full Stack Developer"
+      property="og:title" content="APT Team - Full Stack Developer"
     />
     <meta
-      property="og:description"
-      content="APT Team - Portfolio"
+      property="og:description" content="APT Team - Portfolio"
     />
     <meta property="og:image" content="/logo512.png" />
     <meta property="twitter:card" content="summary_large_image" />
     <meta
-      property="twitter:title"
-      content="APT Team - Full Stack Developer"
+      property="twitter:title" content="APT Team - Full Stack Developer"
     />
 
     <meta property="twitter:image" content="/logo512.png" />
