@@ -10,7 +10,7 @@ module.exports = {
     "airbnb",
     "eslint:recommended",
     "prettier",
-    "next/core-web-vitals",
+    // "next/core-web-vitals",
   ],
   parserOptions: {
     ecmaFeatures: {
@@ -32,7 +32,13 @@ module.exports = {
     "simple-import-sort/imports": "error",
     "simple-import-sort/exports": "error",
     "no-implicit-coercion": "error",
-    "prettier/prettier": ["error"],
+    // "prettier/prettier": ["error"],
+    "prettier/prettier": [
+      "error",
+      {
+        endOfLine: "auto",
+      },
+    ],
   },
   overrides: [
     {
