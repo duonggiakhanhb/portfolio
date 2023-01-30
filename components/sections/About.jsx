@@ -102,7 +102,7 @@ export default function About() {
     <SectionContainer
       id="about"
       name="about"
-      headerMt="-5%"
+      headerMt="0%"
       headerText="About Us"
       useHeaderStyle
     >
