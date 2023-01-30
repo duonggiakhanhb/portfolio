@@ -12,7 +12,7 @@ import React from "react";
 import { colors } from "../../theme";
 import SectionContainer from "../SectionContainer";
 
-import ProfileBox from "../sections/ProfileBox";
+import ProfileBox from "./ProfileBox";
 
 const Bio = ({ secondary }) => (
   <GridItem>

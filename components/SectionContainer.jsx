@@ -1,6 +1,5 @@
 import { Text, useColorModeValue } from "@chakra-ui/react";
 import React from "react";
-import { useState } from "react";
 import Fade from "react-reveal/Fade";
 
 import styles from "../styles/components/SectionContainer.module.css";
@@ -12,7 +11,7 @@ function SectionContainer({
   useHeaderStyle = false,
   ...props
 }) {
-  const color = useColorModeValue("secondary.light", "secondary.dark");
+  // const color = useColorModeValue("secondary.light", "secondary.dark");
   return (
     <div className={styles.container} {...props}>
       <Fade>
