@@ -12,7 +12,7 @@ import React from "react";
 import { colors } from "../../theme";
 import SectionContainer from "../SectionContainer";
 
-import ProfileBox  from "../sections/ProfileBox";
+import ProfileBox from "../sections/ProfileBox";
 
 const Bio = ({ secondary }) => (
   <GridItem>
@@ -49,7 +49,7 @@ const Headshot = () => (
   //     }}
   //   />
   // </GridItem>
-  <ProfileBox/>
+  <ProfileBox />
 );
 
 export default function About() {
@@ -80,4 +80,3 @@ export default function About() {
     </SectionContainer>
   );
 }
-

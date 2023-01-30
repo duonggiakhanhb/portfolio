@@ -1,4 +1,4 @@
-import {useState} from 'react';
+import { useState } from "react";
 
 const App = () => {
   const [isHovering, setIsHovering] = useState(false);
@@ -12,12 +12,9 @@ const App = () => {
   };
 
   return (
-    <div style={{color: "#FFFFFF"}}>
+    <div style={{ color: "#FFFFFF" }}>
       <div>
-        <div
-          onMouseEnter={handleMouseOver}
-          onMouseLeave={handleMouseOut}
-        >
+        <div onMouseEnter={handleMouseOver} onMouseLeave={handleMouseOut}>
           Hover over me
         </div>
 

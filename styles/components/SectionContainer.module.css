@@ -1,9 +1,9 @@
 .header {
   font-size: 3em;
   /* color: "#19aad5"; */
-  margin-top: 2vh; 
+  margin-top: 2vh;
   font-family: Poppins;
-  color: #FFFFFF;
+  color: #ffffff;
   font-weight: 600;
   text-align: left;
   letter-spacing: -2px;
@@ -16,10 +16,9 @@
   justify-content: center;
   align-items: center;
   font-family: Poppins;
-  color: #FFFFFF;
+  color: #ffffff;
   font-weight: 600;
 }
-
 
 .column {
   display: flex;
@@ -27,4 +26,3 @@
   justify-content: center;
   align-items: center;
 }
-

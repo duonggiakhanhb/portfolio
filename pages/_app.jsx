@@ -20,23 +20,20 @@ const SiteHead = ({ title }) => (
     <link rel="manifest" href="/manifest.json" />
     <meta name="theme-color" content="#252934" />
     <meta property="og:type" content="website" />
-    <meta
-      property="og:title" content="APT Team - Full Stack Developer"
-    />
-    <meta
-      property="og:description" content="APT Team - Portfolio"
-    />
+    <meta property="og:title" content="APT Team - Full Stack Developer" />
+    <meta property="og:description" content="APT Team - Portfolio" />
     <meta property="og:image" content="/logo512.png" />
     <meta property="twitter:card" content="summary_large_image" />
-    <meta
-      property="twitter:title" content="APT Team - Full Stack Developer"
-    />
+    <meta property="twitter:title" content="APT Team - Full Stack Developer" />
 
     <meta property="twitter:image" content="/logo512.png" />
-    <link rel="preconnect" href="https://fonts.googleapis.com"/>
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet"/>
-    <link rel="stylesheet" href="/global.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/global.css" />
     <Script
       async
       defer

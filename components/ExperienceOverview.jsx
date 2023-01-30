@@ -17,7 +17,6 @@ import jobs from "../data/jobs";
 import styles from "../styles/components/ExperienceOverview.module.css";
 import { colors } from "../theme";
 
-
 const ExperienceSelect = ({ expIndex, setIndex }) => (
   <Select value={expIndex} onChange={(e) => setIndex(e.target.value)}>
     {jobs.map((job, index) => (
@@ -34,16 +33,16 @@ const ExperienceButtons = ({ expIndex, setIndex }) => (
     item
     spacing={2}
     justifyContent="center"
-    style={{ margin: "auto"}}
+    style={{ margin: "auto" }}
   >
     {jobs.map((job, index) => (
       <Grid container item key={`${job.workplace}-btn`}>
         <Button
-          className={styles.btn-1}
+          className={styles.btn - 1}
           isActive={expIndex === index}
           isFullWidth
           onClick={() => setIndex(index)}
-          style={expIndex===index ? styless[0]: styless[1]}
+          style={expIndex === index ? styless[0] : styless[1]}
         >
           {job.workplace}
         </Button>
@@ -121,7 +120,12 @@ export default function ExperienceOverview() {
         md={2}
         alignItems="center"
         justifyContent="flex-start"
-        style={{ marginTop: "24px", marginBottom: "24px", marginRight: "3vw", maxWidth:"24%" }}
+        style={{
+          marginTop: "24px",
+          marginBottom: "24px",
+          marginRight: "3vw",
+          maxWidth: "24%",
+        }}
       >
         {showSelect ? (
           <ExperienceButtons expIndex={index} setIndex={setIndex} />
@@ -144,23 +148,25 @@ export default function ExperienceOverview() {
 
 const styless = [
   {
-    borderRadius: '16px',
-    background: "linear-gradient(103.91deg, #9B51E0 21.01%, rgba(48, 129, 237, 0.8) 100%)",
+    borderRadius: "16px",
+    background:
+      "linear-gradient(103.91deg, #9B51E0 21.01%, rgba(48, 129, 237, 0.8) 100%)",
   },
   {
-  cursor: "pointer",
-  // marginLeft: "20px",
-  display: "flex",
-  justifyContent: "center",
-  alignItems: "center",
-  backgroundColor: "transparent",
-  padding: "8px 38px",
-  border: "1px solid #D7D7D7",
-  borderRadius: '16px',
-  fontFamily: "Poppins",
-  fontStyle: "normal",
-  fontWeight: 600,
-  // fontSize: "13px",
-  letterSpacing: "-1px",
-  color: "#FFFFFF",
-}]
+    cursor: "pointer",
+    // marginLeft: "20px",
+    display: "flex",
+    justifyContent: "center",
+    alignItems: "center",
+    backgroundColor: "transparent",
+    padding: "8px 38px",
+    border: "1px solid #D7D7D7",
+    borderRadius: "16px",
+    fontFamily: "Poppins",
+    fontStyle: "normal",
+    fontWeight: 600,
+    // fontSize: "13px",
+    letterSpacing: "-1px",
+    color: "#FFFFFF",
+  },
+];
