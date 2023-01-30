@@ -8,9 +8,9 @@ import {
   DrawerOverlay,
   IconButton,
   Link,
-  Text,
   Spacer,
   Stack,
+  Text,
   Tooltip,
   useColorMode,
   useColorModeValue,
@@ -20,6 +20,8 @@ import React from "react";
 import { FaMoon, FaSun } from "react-icons/fa";
 import { animateScroll as scroll, Link as ScrollLink } from "react-scroll";
 import Sticky from "react-stickynode";
+
+import { colors } from "../theme";
 
 const styless = [
   {
@@ -58,7 +60,7 @@ const Logo = () => {
   const logo = useColorModeValue("/logo.png", "/logo-dark.png");
   return (
     <Text
-      className={"navlogo"}
+      className="navlogo"
       style={{ cursor: "pointer" }}
       onClick={() => scroll.scrollToTop()}
     >
@@ -177,7 +179,7 @@ function Navbar() {
         direction={["row", "row", "row", "row"]}
         alignItems="center"
         justifyContent="center"
-        bg={"#1F1D2B"}
+        bg="#1F1D2B"
       >
         <Logo />
         <Spacer />
