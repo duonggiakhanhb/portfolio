@@ -14,7 +14,7 @@ const SiteHead = ({ title }) => (
   <Head>
     <title>{title}</title>
     <meta name="title" content="APT Team - Full Stack Developer" />
-    <meta name="description" content="Jarrod Servilla - Portfolio" />
+    <meta name="description" content="APT Team - portfolio" />
     <link rel="icon" href="/favicon.ico" />
     <link rel="apple-touch-icon" href="/logo192.png" />
     <link rel="manifest" href="/manifest.json" />
@@ -26,19 +26,15 @@ const SiteHead = ({ title }) => (
     />
     <meta
       property="og:description"
-      content="APT Team's portfolio"
+      content="APT Team - Portfolio"
     />
     <meta property="og:image" content="/logo512.png" />
     <meta property="twitter:card" content="summary_large_image" />
-    <meta property="twitter:url" content="http://www.jarrodservilla.com/" />
     <meta
       property="twitter:title"
-      content="Jarrod Servilla - Full Stack Developer"
+      content="APT Team - Full Stack Developer"
     />
-    <meta
-      property="twitter:description"
-      content="Jarrod Servilla's personal portfolio"
-    />
+
     <meta property="twitter:image" content="/logo512.png" />
     <link rel="preconnect" href="https://fonts.googleapis.com"/>
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
