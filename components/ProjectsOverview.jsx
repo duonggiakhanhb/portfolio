@@ -147,6 +147,4 @@ function ProjectsOverview() {
   );
 }
 
-
-
 export default ProjectsOverview;

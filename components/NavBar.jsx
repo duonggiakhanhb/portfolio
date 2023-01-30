@@ -58,13 +58,13 @@ const navBtns = [
 const Logo = () => {
   const logo = useColorModeValue("/logo.png", "/logo-dark.png");
   return (
-    <a
+    <Text
       className="navlogo"
       style={{ cursor: "pointer" }}
       onClick={() => scroll.scrollToTop()}
     >
       APT TEAM
-    </a>
+    </Text>
   );
 };
 
@@ -189,6 +189,5 @@ function Navbar() {
     </Sticky>
   );
 }
-
 
 export default Navbar;
