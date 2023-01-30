@@ -99,44 +99,39 @@ export const extraProjects = [
       },
     ],
   },
-  // {
-  //   name: "Citrade",
-  //   type: "Work",
-  //   description:
-  //     "Citrade is a proof-of-concept for a retail investment brokerage, equipped with an easy-to-use UI and detailed analytics.",
-  //   tech: ["React", "AWS"],
-  //   links: [
-  //     {
-  //       label: "Github",
-  //       icon: "github",
-  //       url: "https://github.com/jcserv/citrade-frontend",
-  //     },
-  //     {
-  //       label: "Website",
-  //       icon: "link",
-  //       url: "https://main.d2mbmzkt6yj28g.amplifyapp.com/",
-  //     },
-  //   ],
-  // },
-  // {
-  //   name: "UTM CSSC Website",
-  //   type: "Work",
-  //   description:
-  //     "The CSSC Website is an open space for UTM CS students to ask questions, use academic tools, and get connected within the CS community.",
-  //   tech: ["Vue"],
-  //   links: [
-  //     {
-  //       label: "Github",
-  //       icon: "github",
-  //       url: "https://github.com/utm-cssc/website",
-  //     },
-  //     {
-  //       label: "Website",
-  //       icon: "link",
-  //       url: "https://cssc.utm.utoronto.ca/",
-  //     },
-  //   ],
-  // },
+  {
+    name: "Chinese Language LMS",
+    type: "Education",
+    description:
+      "A freelance app for students to learn Chinese Language by themselves",
+    tech: ["Django", "Python", "Postgresql"],
+    links: [
+      {
+        label: "Website",
+        icon: "link",
+        url: "https://www.antyuyan.com/",
+      },
+    ],
+  },
+  {
+    name: "Book store",
+    type: "Application",
+    description:
+      "An application of ecommerce to sell and manage books, with an online banking",
+    tech: ["Django", "Python", "Postgresql"],
+    links: [
+      {
+        label: "Github",
+        icon: "github",
+        url: "https://gitlab.com/tienphan168/online-bookstore",
+      },
+      {
+        label: "Website",
+        icon: "link",
+        url: "https://basedjango.herokuapp.com/",
+      },
+    ],
+  },
   // {
   //   name: "CollabCloud",
   //   type: "School",
