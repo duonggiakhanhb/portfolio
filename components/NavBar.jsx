@@ -8,6 +8,7 @@ import {
   DrawerOverlay,
   IconButton,
   Link,
+  Text,
   Spacer,
   Stack,
   Tooltip,
@@ -59,7 +60,7 @@ const Logo = () => {
   const logo = useColorModeValue("/logo.png", "/logo-dark.png");
   return (
     <Text
-      className="navlogo"
+      className={"navlogo"}
       style={{ cursor: "pointer" }}
       onClick={() => scroll.scrollToTop()}
     >
