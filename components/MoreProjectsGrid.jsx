@@ -29,6 +29,35 @@ import { colors } from "../theme";
 import LinkIconBar from "./LinkIconBar";
 import Tech from "./Tech";
 
+const styless = [
+  {
+    background: "linear-gradient(93.51deg, #3081ed 2.84%, #9b51e0 99.18%)",
+    backgroundClip: "border-box",
+    WebkitBackgroundClip: "text",
+    WebkitTextFillColor: "transparent",
+    fontSize: "30px",
+    fontWeight: 600,
+    fontFamily: "Poppins",
+    textOverflow: "ellipsis",
+    overflow: "hidden",
+
+  },
+  {
+    borderRadius: "16px",
+    background:
+      "linear-gradient(103.91deg, #9B51E0 21.01%, rgba(48, 129, 237, 0.8) 100%)",
+  },
+  {
+    textAlign: "left",
+    textJustify: "inter-word",
+  },
+  {
+    background: "transparent",
+    color: "white",
+    borderWidth: "1px",
+  }
+]
+
 const DisplayBar = ({ showGridView, setShowGridView }) => (
   <Stack
     mt={4}
@@ -41,8 +70,9 @@ const DisplayBar = ({ showGridView, setShowGridView }) => (
     <Tooltip label="Grid View">
       <IconButton
         aria-label="Display Grid View"
-        icon={<BsGridFill />}
+        icon={<BsGridFill  />}
         isActive={showGridView}
+        style={styless[3]}
         onClick={() => setShowGridView(true)}
       />
     </Tooltip>
@@ -51,6 +81,7 @@ const DisplayBar = ({ showGridView, setShowGridView }) => (
         aria-label="Display List View"
         icon={<FaListUl />}
         isActive={!showGridView}
+        style={styless[3]}
         onClick={() => setShowGridView(false)}
       />
     </Tooltip>
@@ -95,12 +126,12 @@ const ProjectCard = ({ name, description, links, tech }) => {
         </Grid>
       </Grid>
       <Grid container item direction="row" style={{ marginTop: "-24px" }}>
-        <Heading as="h1" size="md" m={2} p={1} pt={6}>
+        <Heading as="h1" size="md" m={2} p={1} pt={6} style={styless[0]}>
           {name}
         </Heading>
       </Grid>
       <Grid container item direction="row">
-        <Text fontSize="md" m={2} p={1}>
+        <Text fontSize="md" m={2} p={1} style={styless[2]}>
           {description}
         </Text>
       </Grid>
@@ -119,7 +150,7 @@ const ProjectCard = ({ name, description, links, tech }) => {
 
 const ProjectRow = ({ name, type, description, tech, links }) => (
   <Tr>
-    <Td>{name}</Td>
+    <Td style={styless[0]}>{name}</Td>
     <Td>{type}</Td>
     <Td>{description}</Td>
     <Td>
@@ -141,7 +172,7 @@ const ProjectTable = ({ projs }) => (
       <Table size="md" w="100%">
         <Thead>
           <Tr>
-            <Th w="10%">Name</Th>
+            <Th style={styless[0]} w="10%">Name</Th>
             <Th w="10%">Type</Th>
             <Th w="25%">Description</Th>
             <Th w="20%">Technologies</Th>
@@ -186,6 +217,7 @@ export default function MoreProjectsGrid() {
       <Flex justifyContent="center" w="100vw">
         <Button
           mt={6}
+          style={styless[1]}
           leftIcon={isExpanded ? <ChevronUpIcon /> : <ChevronDownIcon />}
           onClick={() => setIsExpanded(!isExpanded)}
         >

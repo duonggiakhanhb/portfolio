@@ -19,6 +19,7 @@ function SectionContainer({
           <Text
             as="h1"
             mt={headerMt}
+            style={{textAlign: "center"}}
             className={useHeaderStyle ? styles.header : ""}
           >
             {headerText}
