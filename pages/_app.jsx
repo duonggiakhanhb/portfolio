@@ -7,6 +7,7 @@ import Script from "next/script";
 import React from "react";
 
 import Footer from "../components/Footer";
+import Loader from "../components/Loader";
 import NavBar from "../components/NavBar";
 import theme from "../theme";
 
@@ -38,6 +39,7 @@ const SiteHead = ({ title }) => (
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
     />
     <link rel="stylesheet" href="/global.css" />
+    <link rel="stylesheet" href="/bongo/bongo-cat.css" />
     <Script
       async
       defer
@@ -59,6 +61,10 @@ const PageWrapper = ({ children, title }) => (
     <NavBar />
     <main className="main">{children}</main>
     <Footer />
+    <Script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/gsap-latest-beta.min.js" />
+    {/* <Script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/DrawSVGPlugin3.min.js" /> */}
+    <Script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.15/lodash.min.js" />
+    <Script src="/bongo/bongo-cat.js" />
   </div>
 );
 
@@ -72,6 +78,7 @@ function App({ Component, pageProps }) {
   return (
     <ChakraProvider theme={theme}>
       <PageWrapper title={pathToTitle[pathname]}>
+        {/* <Loader/> */}
         <Component {...pageProps} />
       </PageWrapper>
     </ChakraProvider>

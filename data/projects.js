@@ -8,7 +8,7 @@ const projects = [
       {
         label: "Github",
         icon: "github",
-        url: "https://github.com/kun09-tker/ChessGame3D",
+        url: "https://gitlab.com/phong940253/ChessGame3D",
       },
     ],
   },
@@ -18,7 +18,7 @@ const projects = [
     description:
       "Website to honor the title for the University of Education in Ho Chi Minh City",
     pic: "/title-review.png",
-    tech: ["Laravel", "Php", "Mysql", "Jquery", "Bootstrap", "Sass"],
+    tech: ["Laravel", "PHP", "Mysql", "Jquery", "Bootstrap", "Sass"],
     links: [
       {
         label: "Website",

@@ -1,5 +1,6 @@
 import React from "react";
 
+import Meow from "../components/Meow";
 import About from "../components/sections/About";
 import Contact from "../components/sections/Contact";
 import Experience from "../components/sections/Experience";
@@ -17,6 +18,7 @@ export default function Home() {
       <Projects />
       <MoreProjects />
       <Contact />
+      <Meow />
     </div>
   );
 }
