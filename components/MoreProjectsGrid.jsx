@@ -40,7 +40,6 @@ const styless = [
     fontFamily: "Poppins",
     textOverflow: "ellipsis",
     overflow: "hidden",
-
   },
   {
     borderRadius: "16px",
@@ -55,8 +54,8 @@ const styless = [
     background: "transparent",
     color: "white",
     borderWidth: "1px",
-  }
-]
+  },
+];
 
 const DisplayBar = ({ showGridView, setShowGridView }) => (
   <Stack
@@ -70,7 +69,7 @@ const DisplayBar = ({ showGridView, setShowGridView }) => (
     <Tooltip label="Grid View">
       <IconButton
         aria-label="Display Grid View"
-        icon={<BsGridFill  />}
+        icon={<BsGridFill />}
         isActive={showGridView}
         style={styless[3]}
         onClick={() => setShowGridView(true)}
@@ -172,7 +171,9 @@ const ProjectTable = ({ projs }) => (
       <Table size="md" w="100%">
         <Thead>
           <Tr>
-            <Th style={styless[0]} w="10%">Name</Th>
+            <Th style={styless[0]} w="10%">
+              Name
+            </Th>
             <Th w="10%">Type</Th>
             <Th w="25%">Description</Th>
             <Th w="20%">Technologies</Th>

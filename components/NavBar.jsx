@@ -56,11 +56,20 @@ const navBtns = [
   },
 ];
 
-const HamburgerIcon = () => {
-  return (
-    <svg viewBox="0 0 24 24" focusable={"false"} width="3vh" height="3vh" color="white" ><path fill="currentColor" d="M 3 5 A 1.0001 1.0001 0 1 0 3 7 L 21 7 A 1.0001 1.0001 0 1 0 21 5 L 3 5 z M 3 11 A 1.0001 1.0001 0 1 0 3 13 L 21 13 A 1.0001 1.0001 0 1 0 21 11 L 3 11 z M 3 17 A 1.0001 1.0001 0 1 0 3 19 L 21 19 A 1.0001 1.0001 0 1 0 21 17 L 3 17 z"></path></svg>
-  )
-}
+const HamburgerIcon = () => (
+  <svg
+    viewBox="0 0 24 24"
+    focusable="false"
+    width="3vh"
+    height="3vh"
+    color="white"
+  >
+    <path
+      fill="currentColor"
+      d="M 3 5 A 1.0001 1.0001 0 1 0 3 7 L 21 7 A 1.0001 1.0001 0 1 0 21 5 L 3 5 z M 3 11 A 1.0001 1.0001 0 1 0 3 13 L 21 13 A 1.0001 1.0001 0 1 0 21 11 L 3 11 z M 3 17 A 1.0001 1.0001 0 1 0 3 19 L 21 19 A 1.0001 1.0001 0 1 0 21 17 L 3 17 z"
+    />
+  </svg>
+);
 
 const Logo = () => {
   const logo = useColorModeValue("/logo.png", "/logo-dark.png");
@@ -153,7 +162,12 @@ const MenuLinks = ({ onClose }) => (
 );
 
 const NavMenu = ({ isOpen, onClose }) => (
-  <Drawer placement="right" onClose={onClose} isOpen={isOpen}  style={{background: "black"}}>
+  <Drawer
+    placement="right"
+    onClose={onClose}
+    isOpen={isOpen}
+    style={{ background: "black" }}
+  >
     <DrawerOverlay>
       <DrawerContent>
         <DrawerBody>
