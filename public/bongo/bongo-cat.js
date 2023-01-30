@@ -1,6 +1,5 @@
 let _a;
 let _b;
-// Bongo Cat originally created by @StrayRogue and @DitzyFlama
 const ID = "bongo-cat";
 const s = (selector) => `#${ID} ${selector}`;
 const notes = document.querySelectorAll(".note");

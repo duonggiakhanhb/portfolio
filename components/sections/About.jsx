@@ -70,7 +70,7 @@ const Headshot = () => (
   //     }}
   //   />
   // </GridItem>
-  <ProfileBox />
+  <ProfileBox image="/images/AdamNFT.jpg" />
 );
 
 const Nextshot = () => (
