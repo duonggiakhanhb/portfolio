@@ -17,8 +17,8 @@ import { colors } from "../theme";
 const styless = [
   {
     colors: "#b3b3b3",
-  }
-]
+  },
+];
 
 const icons = {
   github: VscGithubInverted,
@@ -43,7 +43,7 @@ const LinkIcon = ({ index, color, onHoverColor, url, label, icon }) => (
         fontSize="xl"
         width="4vw"
         height="4vw"
-        color={{colors:"black"}}
+        color={{ colors: "black" }}
         _hover={{ color: onHoverColor }}
       />
     </Link>

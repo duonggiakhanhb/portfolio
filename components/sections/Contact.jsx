@@ -10,8 +10,8 @@ const styless = [
     borderRadius: "10px",
     background:
       "linear-gradient(103.91deg, #9B51E0 21.01%, rgba(48, 129, 237, 0.8) 100%)",
-  }
-]
+  },
+];
 
 export default function Contact() {
   return (
