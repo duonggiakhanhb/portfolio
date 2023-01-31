@@ -9,6 +9,7 @@ import {
 } from "@chakra-ui/react";
 import { Grid } from "@material-ui/core";
 import React from "react";
+import { useMediaQuery } from "react-responsive";
 import Fade from "react-reveal/Fade";
 
 import projects from "../data/projects";
@@ -29,8 +30,26 @@ const styless = [
   {
     color: "#ff19a5",
   },
-  {},
+  {
+    objectFit: "cover",
+    flexShrink: 0,
+    borderRadius: "20px",
+    transition: "0.3s",
+    cursor: "pointer",
+    width: "90vw",
+    height: "90vw",
+  },
 ];
+
+// const [matches, setMatches] = useState(
+//   window.matchMedia("(max-width: 500px)").matches
+// )
+
+// useEffect(() => {
+//   window
+//   .matchMedia("(max-width: 500px)")
+//   .addEventListener('change', e => setMatches( e.matches ));
+// }, []);
 
 const Card = ({ name, subtitle, description, links }) => {
   const bg = useColorModeValue(colors.bg.light, colors.bg.dark);
@@ -78,6 +97,9 @@ const ProjectContent = ({
   tech,
   links,
 }) => {
+  const isDesktopOrPhone = useMediaQuery({
+    query: "(max-width: 500px)",
+  });
   if (alternate) {
     return (
       <>
@@ -102,7 +124,7 @@ const ProjectContent = ({
       src={pic}
       alt={`${name} picture`}
       className="image project"
-      style={styless[0]}
+      style={isDesktopOrPhone ? styless[2] : styless[0]}
       onClick={() => {
         window.open(links[0].url);
       }}
@@ -112,14 +134,14 @@ const ProjectContent = ({
 
 const Project = ({ index, shouldAlternate, ...props }) => (
   <Fade>
-    <Grid container direction="row" style={{ height: "70vh" }}>
+    <Grid container direction="row">
       <Grid container item xs={12} sm={6}>
         <ProjectContent
           alternate={shouldAlternate ? index % 2 === 0 : false}
           {...props}
         />
       </Grid>
-      <Grid container item xs={12} sm={6}>
+      <Grid container item xs={12} sm={6} style={{ padding: "2vh" }}>
         <ProjectContent
           alternate={shouldAlternate ? index % 2 === 1 : true}
           {...props}
