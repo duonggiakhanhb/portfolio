@@ -61,6 +61,7 @@ const PageWrapper = ({ children, title }) => (
     <NavBar />
     <main className="main">{children}</main>
     <Footer />
+    <Script src="https://cdn.jsdelivr.net/npm/animejs@3.0.1/lib/anime.min.js"/>
     <Script src="/bongo/bongo-cat.js" />
   </div>
 );

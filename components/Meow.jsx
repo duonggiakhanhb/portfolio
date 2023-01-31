@@ -22,7 +22,7 @@ export default function Meow() {
               />
             </g>
           </g>
-          <g className="music music-right">
+          {/* <g className="music music-right">
             <g className="note">
               <g>
                 <path d="M368.5,46.5c.5,2.1,1.2,3.5,3.8,6.3s5.1,4.3,6.5,7.2a11.1,11.1,0,0,1,.7,2,10.5,10.5,0,0,1-.7,6.5" />
@@ -68,7 +68,7 @@ export default function Meow() {
                 <path d="M371.8,33.4a26.6,26.6,0,0,0,3.6,7.8c3.7,5.7,7.6,7,8.8,11.6.5,1.7.7,4.4-.9,8.3" />
               </g>
             </g>
-          </g>
+          </g> */}
           <g className="table">
             <polygon points="25.3 158.5 783.2 293 513 354.9 25.3 158.5" />
             <line
@@ -179,7 +179,7 @@ export default function Meow() {
               d="M638.9,157.7c-4-16.8-25.9-61.9-75.3-95.3A155.5,155.5,0,0,0,515,40.6"
             />
           </g>
-          <g className="music music-left">
+          {/* <g className="music music-left">
             <g className="note">
               <g>
                 <path d="M633.3,119.9c.6,2,1.3,3.5,3.8,6.3s5.2,4.3,6.5,7.2a6.9,6.9,0,0,1,.7,1.9,10.2,10.2,0,0,1-.7,6.6" />
@@ -225,7 +225,7 @@ export default function Meow() {
                 <path d="M636.6,106.8a33.2,33.2,0,0,0,3.6,7.8c3.8,5.7,7.6,6.9,8.9,11.5a13.3,13.3,0,0,1-.9,8.4" />
               </g>
             </g>
-          </g>
+          </g> */}
         </g>
       </svg>
     </div>
