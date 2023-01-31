@@ -49,19 +49,18 @@
   }
 
 
-
-.paw-right.up,
-.paw-right.down,
-.paw-left.up,
-.paw-left.down {
-  -webkit-animation: blink 300ms infinite;
-          animation: blink 300ms infinite;
+/* .paw-right > .up,
+.paw-right >.down,
+.paw-left > .up,
+.paw-left > .down {
+  -webkit-animation: blink 380ms infinite;
+          animation: blink 380ms infinite;
 }
 
-.paw-right.up,
-.paw-left.down {
-  -webkit-animation-delay: 150ms;
-          animation-delay: 150ms;
+.paw-right > .up,
+.paw-left > .down {
+  -webkit-animation-delay: 190ms;
+          animation-delay: 190ms;
 }
 
 @-webkit-keyframes blink {
@@ -86,4 +85,4 @@
   50% {
     opacity: 1;
   }
-}
+} */
