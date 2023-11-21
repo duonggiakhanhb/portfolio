@@ -1,7 +1,7 @@
 ## 🚀 Portfolio V2.0
 
 This portfolio has been re-designed with responsiveness, accessibility, and cleaner code in mind using Chakra-UI.
-See the previous portfolio [here](https://github.com/jcserv/portfoliov1)
+[Porfolio Web](https://aptteam.netlify.app/)
 
 Changes:
 
